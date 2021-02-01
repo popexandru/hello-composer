@@ -11,7 +11,10 @@
     ],
     "minimum-stability": "stable",
     "autoload": {
-        "psr-4": {"popexandru\\HelloWorld\\": "src/HelloWorld"}
+        "psr-4": {
+            "popexandru\\HelloWorld\\": "src/HelloWorld",
+            "popexandru\\B2B\\": "src/B2B",
+        }
     },
     "require": {}
 }
